@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+    background-image: "carta.png";
+     }
+  
+  h1, p {
+    text-align:center;
+       color: rgba(1, 1, 122);, 1
+    font-family: sans-serif;
+    font-size: ;
+         font-style: bold;
+  }
+  p {
+    font-style: italic;
+      color: rgba(125, 55, 0, 50)
+  }
+  .inline {
+   display: inline-block;
+      text-align: left;
+    width: unset;
+    margin: 0.7rem 0;
+    margin-right: 10px
+    }
+  h1 {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    *font-family:lucida;
+    font-family: comic sans;
+    font-size: 39px;
+    text-shadow: 1px 1px white;
+      margin-top:35px;
+    display:block;
+  }
+  form{
+    color: rgba(1, 1, 122);, 1;
+    width: 40%;
+    height: 60%;
+    margin: 25px auto;
+      background-color: #fff2ce50;
+    border: none;
+    border-radius: 20px;
+    padding: 25px 30px
+  }
+  fieldset {
+    border: none;
+    border-bottom: 1px solid rgba(125, 55, 0, 50);
+    padding: 1.5rem
+  }
+  input, textarea, select {
+    display: inline-block;
+    width: 97%;
+    background-color: ;
+    padding: 0.7rem;
+    border:0.5px solid rgba(100, 100, 0, 99);
+    border-radius: 12px;
+      margin: 1.1rem 0;
+    box-shadow: 1px 1px 2px 0px;
+  }
+  input[type="checkbox"] {
+    box-shadow: none;
+  }
+  input[type="radio"] {
+    box-shadow: none;
+  }
+  label {
+    display-type: inline-block;
+  
+  }
+  Input[type="submit"]{
+    background-color: rgba(46, 204, 113);;
+    width: 30%;
+   margin: 5px 35%;
+      padding: 0.5rem;
+        opacity: 88%;
+    box-shadow: 3px 3px 3px 1px; 
+  }
+  .textarea {
+    height: 5rem;
+  }  
+  .italic {
+    text-align: left;
+    style: italic;
+      vertical-align: text-bottom;
+    display: block;
+    margin-top: 50px;
+  }
+  .note {
+    font-size: 0.8rem;
+    text-align:left;
+    color: rgba(1, 1, 122);, 1;
+    *border: 1px solid black;
+      margin-bottom: -8px
+  }
